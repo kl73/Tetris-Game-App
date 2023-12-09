@@ -6,24 +6,7 @@ const context = canvas.getContext('2d');
 const blockSize = 40;
 
 //play intro
-introSound = new Audio('audio/tetrismf.mp3');
-loopSound = new Audio('audio/tetrisloop.mp3');
-collideSound = new Audio('audio/tetriscollide.mp3')
-rotateSound = new Audio('audio/tetrisrotate.mp3')
-sweepSound = new Audio('audio/tetrissweep.mp3') 
-pauseSound = new Audio('audio/tetrispause.mp3') 
-gameoverSound = new Audio('audio/tetrisgameover.mp3') 
-highspinsSound = new Audio('audio/tetrishighspins.mp3') 
-levelupSound = new Audio('audio/tetrislevelup.mp3') 
-introSound.volume = .03
-loopSound.volume = .015
-collideSound.volume = .04
-rotateSound.volume = .015
-sweepSound.volume = .25
-pauseSound.volume = .1
-gameoverSound.volume = .03
-highspinsSound.volume = .02
-levelupSound.volume = .1
+
 
 
 
